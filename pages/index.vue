@@ -1,5 +1,5 @@
 <template>
-  <Tutorial />
+  <div>Take-Home Exam</div>
 </template>
 
 <script>
