@@ -1,0 +1,19 @@
+.search {
+    // height: 40px;
+
+    &-input {
+        border-radius: 40px 0 0 40px !important;
+        padding-left: 20px !important;
+    }
+
+    &-btn {
+        display: flex;
+        place-items: center;
+        padding-inline: 20px !important;
+
+        background-color: #f0f0f0;
+        color: black;
+        border-radius: 0 40px 40px 0 !important;
+
+    }
+}

@@ -1,0 +1,40 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	&:hover,
+	.graph-wrapper:hover {
+		&::-webkit-scrollbar-thumb {
+			visibility: visible;
+		}
+	}
+
+	/* width */
+	&::-webkit-scrollbar {
+		width: 5px;
+	}
+
+	/* Track */
+	&::-webkit-scrollbar-track {
+		background: none;
+	}
+
+	/* Handle */
+	&::-webkit-scrollbar-thumb {
+		background: #888;
+		border-radius: 50px;
+		visibility: hidden;
+	}
+
+	/* Handle on hover */
+	&::-webkit-scrollbar-thumb:hover {
+		background: #555;
+		visibility: visible;
+	}
+}
+
+h1 {
+	white-space: nowrap;
+}
